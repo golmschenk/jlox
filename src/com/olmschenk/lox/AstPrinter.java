@@ -5,6 +5,12 @@ class AstPrinter implements Expr.Visitor<String> {
         return expr.accept(this);
     }
 
+    // Built without book to make sure the project compiles.
+    @Override
+    public String visitAssignExpr(Expr.Assign expr) {
+        return null;
+    }
+
     @Override
     public String visitBinaryExpr(Expr.Binary expr) {
         return parenthesize(expr.operator.lexeme,
