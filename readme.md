@@ -1,1 +1,1 @@
-An implementation of the Lox programming language (https://craftinginterpreters.com). The implementation is a tree-walk interpreter written in Java.    
+An implementation of the Lox programming language from [Crafting Interpreters](https://craftinginterpreters.com). The implementation is a tree-walk interpreter written in Java.
